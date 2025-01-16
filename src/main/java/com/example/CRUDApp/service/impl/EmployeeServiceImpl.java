@@ -7,10 +7,12 @@ import com.example.CRUDApp.mapper.EmployeeMapper;
 import com.example.CRUDApp.repository.CrudAppRepository;
 import com.example.CRUDApp.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
+@Service
 public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
